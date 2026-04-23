@@ -1,5 +1,6 @@
 import pytest
 from app import app as flask_app # Renomme pour éviter conflit
+assert False
 
 @pytest.fixture
 def app():
